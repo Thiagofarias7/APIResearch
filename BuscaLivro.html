@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Busca de Livros</title>
+</head>
+<body>
+    <h1 id="search">Busca de Livros</h1>
+    <label for="searchType">Selecione o tipo de busca: </label>
+    <select id="searchType">
+        <option value="intitle">Título</option>
+        <option value="inauthor">Autor</option>
+        <option value="inpublisher">Editora</option>
+        <option value="subject">Assunto</option>
+    </select>
+    <input type="text" id="searchInput">
+    <button onclick="searchBooks()">Buscar</button>
+    <div id="results"></div>
+    <script type="text/javascript" src="BuscaLivro.js"></script>
+    <link rel="stylesheet" type="text/css" href="BuscaLivro.css" media="screen" />
+    </script>
+</body>
+</html>
+
